@@ -1,0 +1,358 @@
+/* body{
+    height: 100vh;
+} */
+section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 80px;
+    /* width: 80%; */
+}
+/* -----left----- */
+.left .left-top{
+    background-color: black;
+}
+.left .left-top-img img{
+    width: 280px;
+    height: 340px;
+}
+.left .left-top-ui{
+    padding-left: 29px;
+}
+.left .left-top-ui h1{
+    background-color: rgb(255, 209, 0);
+    width: max-content;
+    padding: 2px 12px;
+    letter-spacing: 4px;
+    border-radius: 1px;
+    z-index: 1;
+    position: absolute;
+    bottom: 33%;
+}
+.left .left-top-education{
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+.left .left-top-education .education-line{
+    border: 2px solid rgb(255, 209, 0);
+    width: 35px;
+}
+.left .left-top-education .major-1 h3{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+.left .left-top-education .major-1 .name{
+    color: white;
+    margin-bottom: -9px;
+}
+.left .left-top-education .major-2 h3{
+    color: white;
+    margin-bottom: -5px;
+}
+.left .left-top-education .major-2 .name{
+    color: white;
+    margin-bottom: -9px;
+}
+.left .left-expertise{
+    background-color: rgb(232, 229, 229);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.left .left-expertise .expertise-underline{
+    border: 2px solid rgb(255, 209, 0);
+    margin: 10px 0;
+    width: 35px;
+}
+.left .left-expertise .photoshop{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.left .left-expertise .photoshop p{
+    margin-right: 10px;
+}
+.left .left-expertise .illustrator{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.left .left-expertise .illustrator p{
+    margin-right: 15px;
+}
+.left .left-expertise .indesign{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.left .left-expertise .indesign p{
+    margin-right: 23px;
+}
+.left .left-expertise .word{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-right: 20px;
+}
+.left .left-expertise .word p{
+    margin-right: 43px;
+}
+.left .left-expertise .powerpoint{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.left .left-expertise .photoshop .photoshop-bar{
+    border-bottom: 4px solid rgb(255, 209, 0);
+    height: 2px;
+    margin-left: 25px;
+    width: 110px;
+}
+.left .left-expertise .photoshop .photoshop-empty{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    height: 2px;
+    width: 20px;
+}
+.left .left-expertise .illustrator .illustrator-bar{
+    border-bottom: 4px solid rgb(255, 209, 0);
+    height: 2px;
+    margin-left: 25px;
+    width: 90px;
+}
+.left .left-expertise .illustrator .illustrator-empty{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    height: 2px;
+    width: 40px;
+}
+.left .left-expertise .indesign .indesign-bar{
+    border-bottom: 4px solid rgb(255, 209, 0);
+    height: 2px;
+    margin-left: 25px;
+    width: 110px;
+}
+.left .left-expertise .indesign .indesign-empty{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    height: 2px;
+    width: 20px;
+}
+.left .left-expertise .word .word-bar{
+    border-bottom: 4px solid rgb(255, 209, 0);
+    height: 2px;
+    margin-left: 25px;
+    width: 100px;
+}
+.left .left-expertise .word .word-empty{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    height: 2px;
+    width: 30px;
+}
+.left .left-expertise .powerpoint .powerpoint-bar{
+    border-bottom: 4px solid rgb(255, 209, 0);
+    height: 2px;
+    margin-left: 25px;
+    width: 85px;
+}
+.left .left-expertise .powerpoint .powerpoint-empty{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    height: 2px;
+    width: 47px;
+}
+.left .left-contact{
+    background-color: rgb(232, 229, 229);
+}
+.left .icons{
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}  
+.left .ic1{
+    display: flex;
+    gap: 20px;
+}
+.left .icons .phone-div{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 15px;
+}
+.left .icons .email-div{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 15px;
+}
+.left .icons .area-div{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 15px;
+}
+.left .icons .phone-div .phone-title{
+    margin-bottom: -15px;
+    font-size: 1.15rem;
+}
+.left .icons .email-div .email-title{
+    margin-bottom: -15px;
+    font-size: 1.15rem;
+}
+.left .icons .area-div .area-title{
+    margin-bottom: -15px;
+    font-size: 1.15rem;
+}
+.left .icons .fa-map-marker-alt{
+    font-size: 1.57rem;
+}
+.left .ic1 i{
+    background-color: rgb(255, 209, 0);
+    padding: 15px;
+    font-size: 1.2rem;
+    /* padding-top: 25px; */
+}
+.left .icon-content {
+    display: flex;
+    flex-direction: column;
+}
+/* .left .left-expertise .{} */
+/* -----right---- */
+.right {
+    /* background-color: rgb(222, 220, 220); */
+    width: 55%;
+}
+.right .right-intro{
+    background-color: rgb(232, 229, 229);
+    padding: 20px 60px 30px 60px;
+}
+.right .right-intro .intro-name h1{
+    font-size: 3.3rem;
+    letter-spacing: 4px;
+    margin-top: 25px;
+}
+.right .right-intro .intro-name h1 span{
+    opacity: .8;
+    font-weight: lighter;
+}
+.right .right-intro .intro-name p{
+    margin-top: -25px;
+    padding: 2px 8px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    background-color: rgb(255, 209, 0);
+    width: max-content;
+}
+.right .right-intro .intro-profile .profile-underline{
+    border: 2px solid rgb(255, 209, 0);
+    width: 40px;
+}
+.right .right-intro .intro-profile p{
+    width: 85%;
+    line-height: 32px;
+}
+.right .work-experience{
+    background-color: white;
+    padding: 20px 60px;
+}
+.right .work-experience .work-experience-underline{
+    border: 2px solid rgb(255, 209, 0);
+    width: 40px;
+}
+.right .work-experience .job-position1 span{
+    background-color: rgb(255, 209, 5);
+    padding: 2px 12px;
+    letter-spacing: 0.6px;
+    border-radius: 3px;
+    width: max-content;
+}
+.right .work-experience .job-position1 p{
+    line-height: 25px;
+}
+.right .work-experience .job-position2 span{
+    background-color: rgb(255, 209, 5);
+    padding: 2px 12px;
+    letter-spacing: 0.6px;
+    border-radius: 3px;
+    width: max-content;
+}
+.right .work-experience .job-position2 p{
+    line-height: 25px;
+}
+.right .reference{
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+}
+.right .reference-underline{
+    border: 2px solid rgb(255, 209, 0);
+    width: 40px;
+}
+.right .reference-contents{
+    display: flex;
+    gap: 100px;
+}
+.right .reference-contents .reference-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right .reference-contents .reference-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right .reference-contents h5{
+    margin-bottom: -20px;
+    font-size: 1.4rem;
+}
+.right .reference-contents .phone{
+    margin-top: -20px;
+}
+.right .interest{
+    padding: 50px 60px 20px 60px;
+    background-color: white;
+}
+.right .interest-underline{
+    border: 2px solid rgb(255, 209, 0);
+    width: 40px;
+}
+.right .interest .interest-content{
+    margin-top: 40px;
+    display: flex;
+    gap: 70px;
+}
+.right .interest .interest-content .travel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2rem;
+}
+.right .interest .interest-content .music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2rem;
+}
+.right .interest .interest-content .writing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2rem;
+}
+.right .interest .interest-content .chess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2rem;
+}
+.right .interest .interest-content .travel p{
+    font-size: 1.2rem;
+}
+.right .interest .interest-content .music p{
+    font-size: 1.2rem;
+}
+.right .interest .interest-content .writing p{
+    font-size: 1.2rem;
+}
+.right .interest .interest-content .chess p{
+    font-size: 1.2rem;
+}
